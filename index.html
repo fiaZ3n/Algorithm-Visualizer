@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AlgoViz — Cute Algorithm Visualizer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-cloud">
+      <div class="site-title">AlgoViz</div>
+      <div class="site-subtitle">~ Cute Algorithm Visualizer ~</div>
+    </div>
+  </div>
+
+  <div class="arrow-divider">❧ ♥ ❧</div>
+
+  <!-- NAV TABS -->
+  <nav class="nav-wrap">
+    <button class="nav-btn active" id="navSort"  onclick="switchMode('sort',this)"><span class="nav-ico">🌸</span> Sorting</button>
+    <button class="nav-btn"        id="navPath"  onclick="switchMode('path',this)"><span class="nav-ico">🗺️</span> Pathfinding</button>
+    <button class="nav-btn"        id="navBst"   onclick="switchMode('bst',this)"><span class="nav-ico">🌺</span> BST</button>
+    <button class="nav-btn"        id="navGraph" onclick="switchMode('graph',this)"><span class="nav-ico">💞</span> Graph</button>
+  </nav>
+
+  <!-- DYNAMIC CONTENT MOUNT -->
+  <div class="content-area" id="modeContent"></div>
+
+  <!-- JS — order matters -->
+  <script src="js/colors.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/sorting.js"></script>
+  <script src="js/pathfinding.js"></script>
+  <script src="js/bst.js"></script>
+  <script src="js/graph.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

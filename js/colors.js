@@ -1,0 +1,21 @@
+// ── Canvas color palette ──────────────────────────
+const C = {
+  bar:      '#f4879e',
+  compare:  '#ff9f43',
+  sorted:   '#26de81',
+  pivot:    '#e85d8a',
+  wall:     '#c8a0b8',
+  start:    '#26de81',
+  end:      '#e85d8a',
+  path:     '#f7b731',
+  visited:  '#e8d5f5',
+  bstNode:  '#c86dd4',
+  bstHL:    '#ff9f43',
+  bstFound: '#26de81',
+  gDef:     '#c86dd4',
+  gCur:     '#ff9f43',
+  gVis:     '#fbb6c8',
+  gNxt:     '#26de81',
+  bg:       '#fff8fc',
+  grid:     'rgba(244,135,158,0.08)',
+};
